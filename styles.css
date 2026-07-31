@@ -1,0 +1,84 @@
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: Montserrat, Fraunces, sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    margin: 3.125em 0.9375em;
+    /* padding: 20px; */
+
+}
+
+main {
+    display: grid;
+    place-items: center;
+    /* margin: 30px 0; */
+    /* margin: 7em; */
+    background-color: hsl(0, 0%, 100%);
+} 
+
+main > img {
+    width: 100%;
+    /* height: 18em; */
+}
+main div {
+    padding: 2em;
+    /* margin: 1.25em; */
+}
+p.perf {
+    font-family: Montserrat;
+    letter-spacing: 0.625em;
+}
+h1 {
+    font-family: Fraunces;
+}
+p.text {
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5em;
+    margin-bottom: 0;
+}
+div.price {
+    display: flex;
+    /* justify-content: flex-start; */
+    gap: 1.5em;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+p.discount {
+    font-family: Fraunces;
+    font-size: 3em;
+    color: hsl(158, 36%, 37%);
+}
+p.old-price {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+button {
+    background-color: hsl(158, 36%, 37%);
+    color:  hsl(0, 0%, 100%);
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75em;
+}
+button p {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+/* button img , button p {
+    display: inline;
+} */
+footer {
+    position: relative;
+    margin-bottom: 0;
+    width: 100%;
+    /* top: 0; */
+    bottom: 0;
+}
+Montserrat
+Fraunces
